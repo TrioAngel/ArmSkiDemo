@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 @import "_footer";
 
 body{
@@ -51,4 +52,29 @@ body{
     right: 1em;
     bottom: 1.5em;
      
+}
+
+// about us section
+
+#header-img {
+    background: url(../imgs/header_bg.jpg) no-repeat center ;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+#header-img .container{
+    padding: 7em 2em;
+}
+
+#about-title{
+    font-size: 3.75em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#header-img span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.4em;
+    padding-top: 1em
 }

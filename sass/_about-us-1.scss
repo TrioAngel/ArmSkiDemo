@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+// font-family: 'Kaushan Script', cursive;
+
+
+#header-img {
+    background: url(../imgs/header_bg.jpg) no-repeat center ;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#about-title{
+    font-weight: 900 !important;
+    font-style: italic;
+}
+
+#header-img span {
+    font-family: 'Kaushan Script', cursive;
+}
